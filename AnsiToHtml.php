@@ -1,6 +1,6 @@
 <?php
 
-  require_once(__DIR__ . '/../../func/isInRange.php');
+  require_once(__DIR__ . '/isInRange.php');
 
   class AnsiToHtml
   {
