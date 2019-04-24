@@ -388,13 +388,4 @@
 
   } // AnsiToHtml
 
-  $str = file_get_contents('./sample.ans');
-  ob_start();
-  $a2h = new AnsiToHtml($str, 161);
-  $a2h->parse();
-  $dump = ob_get_clean();
-  file_put_contents('./dump.txt', $dump);
-  $html = $a2h->getHtml();
-  file_put_contents('./sample.html', $html);
-
 ?>
